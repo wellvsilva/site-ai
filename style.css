@@ -1,0 +1,133 @@
+/* style.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul.menu li {
+    margin: 0 10px;
+  }
+  
+  nav ul.menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  #hero-section {
+    padding: 40px 0;
+  }
+  
+  #hero-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #hero-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #hero-section a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  body {
+    background-color: #00bcd4; /* Cor de fundo do site */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #00bcd4; /* Cor do texto dos títulos */
+  }
+  
+  a {
+    color: #00bcd4; /* Cor dos links */
+  }
+  
+  .btn {
+    background-color: #00bcd4; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+  }
+  
+  .imagem-reduzida {
+    width: 200; /* Defina a porcentagem de redução desejada */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .product-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  
+  .product-id {
+    font-weight: bold;
+  }
+  
+  .product-name {
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  <style>
+  body {
+    background-color: #eaf6ff;
+  }
+</style>
+  
+  
+  
+  
